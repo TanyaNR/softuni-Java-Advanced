@@ -12,7 +12,7 @@ public class Vehicles {
     public String driving(double distance) {
         double fuelNeeded = fuelConsumption * distance;
         if (fuelNeeded > fuelQuantity) {
-            return String.format("%s needs refueling", this.getClass().getSimpleName());
+            return String.format("%s needs refuelingg", this.getClass().getSimpleName());
         }
         this.fuelQuantity -= fuelNeeded;
         DecimalFormat decimalFormat = new DecimalFormat("##.##");
