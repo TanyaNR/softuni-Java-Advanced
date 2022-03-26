@@ -2,7 +2,7 @@ package OOP.O2_Encapsulation.PizzaCalories_04;
 
 public class Topping {
     //fields
-    private String toppingType; //Meat, Veggies, Cheese, Sauce
+    private String toppingType; //E03_WildFarm.Meat, Veggies, Cheese, Sauce
     private double weight; //[1;50]
 
     //methods
@@ -13,7 +13,7 @@ public class Topping {
 
     private void setToppingType(String toppingType) {
         switch(toppingType) {
-            case "Meat":
+            case "E03_WildFarm.Meat":
             case "Veggies":
             case "Cheese":
             case "Sauce":
@@ -38,7 +38,7 @@ public class Topping {
         //2 * weight * коеф спрямо тип на топинга
         double toppingTypeCoefficient = 0;
         switch (this.toppingType) {
-            case "Meat":
+            case "E03_WildFarm.Meat":
                 toppingTypeCoefficient = 1.2;
                 break;
             case "Veggies":

@@ -16,8 +16,8 @@ public class Main {
         token = scanner.nextLine().split("\\s+");
         Vehicles truck = createdVehicle(token);
 
-        vehiclesMap.put("OOP.O5_Polimorphism.E01_Vehicle.Car", car);
-        vehiclesMap.put("OOP.O5_Polimorphism.E01_Vehicle.Truck", truck);
+        vehiclesMap.put("OOP.O5_Polimorphism.E01_Vehicle.OOP.O5_Polymorphism.E02_VehicleExtension.Car", car);
+        vehiclesMap.put("OOP.O5_Polimorphism.E01_Vehicle.OOP.O5_Polymorphism.E02_VehicleExtension.Truck", truck);
 
         int n = Integer.parseInt(scanner.nextLine());
 
@@ -49,10 +49,10 @@ public class Main {
 
         Vehicles vehicles = null;
         switch (vehicleType) {
-            case "OOP.O5_Polimorphism.E01_Vehicle.Car":
+            case "OOP.O5_Polimorphism.E01_Vehicle.OOP.O5_Polymorphism.E02_VehicleExtension.Car":
                 vehicles = new Car (fuelQuantity, fuelConsumption);
                 break;
-            case "OOP.O5_Polimorphism.E01_Vehicle.Truck":
+            case "OOP.O5_Polimorphism.E01_Vehicle.OOP.O5_Polymorphism.E02_VehicleExtension.Truck":
                 vehicles = new Truck (fuelQuantity, fuelConsumption);
                 break;
         }

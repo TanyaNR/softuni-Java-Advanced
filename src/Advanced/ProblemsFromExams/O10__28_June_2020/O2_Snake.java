@@ -96,7 +96,7 @@ public class O2_Snake {
             System.out.println("You won! You fed the snake.");
         }
 
-        System.out.printf("Food eaten: %d%n", countFood);
+        System.out.printf("E03_WildFarm.Food eaten: %d%n", countFood);
         printMatrix(matrix, rows);
     }
 

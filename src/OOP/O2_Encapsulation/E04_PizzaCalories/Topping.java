@@ -11,7 +11,7 @@ public class Topping {
 
     private void setToppingType(String toppingType) {
         switch (toppingType) {
-            case "Meat":
+            case "E03_WildFarm.Meat":
             case "Veggies":
             case "Cheese":
             case "Sauce":
@@ -32,7 +32,7 @@ public class Topping {
 
     public double calculateCalories () {
         double coefficientTopingType = 0;
-        if (this.toppingType.equals("Meat")) {
+        if (this.toppingType.equals("E03_WildFarm.Meat")) {
             coefficientTopingType = 1.2;
         } else if (this.toppingType.equals("Veggies")) {
             coefficientTopingType = 0.8;

@@ -38,7 +38,7 @@ public class Person {
 
    //JohnJohnson
    //Company:
-   //OOP.О4_InterfacesАndAbstraction.O1_2_CarShop.OOP.О4_InterfacesАndAbstraction.O6_Ferrari.E05_SmartPhone___55.OOP.O5_Polimorphism.E01_Vehicle.Car:
+   //OOP.О4_InterfacesАndAbstraction.O1_2_CarShop.OOP.О4_InterfacesАndAbstraction.O6_Ferrari.OOP.O4_InterfaceAndAbstraction.E05_SmartPhone___55.OOP.O5_Polimorphism.E01_Vehicle.OOP.O5_Polymorphism.E02_VehicleExtension.Car:
    //Trabant 30
    //Pokemon:
    //Electrode Electricity
@@ -53,7 +53,7 @@ public class Person {
        if (company != null) {
            builder.append(company).append("\n");
        }
-       builder.append("OOP.О4_InterfacesАndAbstraction.O1_2_CarShop.OOP.О4_InterfacesАndAbstraction.O6_Ferrari.E05_SmartPhone___55.OOP.O5_Polimorphism.E01_Vehicle.Car:").append("\n");
+       builder.append("OOP.О4_InterfacesАndAbstraction.O1_2_CarShop.OOP.О4_InterfacesАndAbstraction.O6_Ferrari.OOP.O4_InterfaceAndAbstraction.E05_SmartPhone___55.OOP.O5_Polimorphism.E01_Vehicle.OOP.O5_Polymorphism.E02_VehicleExtension.Car:").append("\n");
        if (car != null) {
            builder.append(car).append("\n");
        }
